@@ -27,6 +27,4 @@ async def repeat(ctx, times: int, content='repeating...'):
 @cool.command(name='bot')
 async def _bot(ctx):
     """Is the bot cool?"""
-    await ctx.send('Yes, the bot is cool.')
-
-bot.run("MTE1NTQzNjMzNTYzNzc0MTcxOA.GbvFFz.HxlQak01DxpSZ5YnZvO-xbiD-UsaxQ2cIxWLqw")
+    await ctx.send('Yes, the bot is cool.'
